@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+	<f:facet name="first">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</f:facet>
+
+	<title>AlgaWorks</title>
+
+	<h:outputStylesheet library="algaworks" name="styles/custom.css" />
+	<h:outputStylesheet library="algaworks" name="styles/layout.css" />
+	<h:outputStylesheet library="algaworks" name="styles/components.css" />
+	
+	<h:outputScript target="body" library="primefaces" name="jquery/jquery.js" />
+	<h:outputScript target="body" library="algaworks" name="javascripts/app.js" />
+</h:head>
+
+<h:body>
+
+	<header class="aw-topbar">
+		<h:graphicImage library="algaworks" name="images/logo.png" />
+		
+		<a href="#" class="aw-toggle  js-toggle"><i class="fa  fa-bars"></i></a>
+	</header>
+	
+	<aside class="aw-sidebar  js-sidebar">
+		<ui:include src="Menu.xhtml" />
+	</aside>
+	
+	<section class="aw-content  js-content">
+		<ui:insert name="content" />
+	</section>
+	
+</h:body>
+
+</html>
