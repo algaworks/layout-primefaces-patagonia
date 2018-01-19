@@ -4,10 +4,13 @@ $(function() {
 		$('.js-sidebar, .js-content').toggleClass('is-toggled');
 		event.preventDefault();
 	});
-	
+
 	$('.aw-item-link').bind('click', function(event) {
 		debugger;
-		$('.aw-menu-tree').toggle();
+		var elementoClicado = event.target;
+		var proximoMenu = $(elementoClicado).next('.aw-menu-tree');
+		//$('.aw-menu-tree').toggle();
+		proximoMenu.toggle();
 		event.preventDefault();
 	});
 });
