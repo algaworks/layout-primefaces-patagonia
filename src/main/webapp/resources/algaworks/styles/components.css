@@ -12,6 +12,11 @@
 	font-size: 1.1em;
 }
 
+.aw-menu-tree{
+	display: none;
+	list-style: none;
+}
+
 .aw-menu > ul {
 	margin: 0;
 	padding: 0;
