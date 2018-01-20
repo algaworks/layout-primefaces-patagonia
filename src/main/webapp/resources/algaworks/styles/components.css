@@ -3,7 +3,7 @@
 	float: right;
 	line-height: 50px;
 	margin-right: 15px;
-	
+
 	color: #fff;
 }
 
@@ -26,11 +26,11 @@
 .aw-menu > ul a {
 	display: block;
 	padding: 10px 15px;
-	
+
 	text-decoration: none;
 	font-weight: 500;
 	color: #373737;
-} 
+}
 
 .aw-menu > ul i {
 	margin-right: 6px;
@@ -50,11 +50,18 @@
 	color: #1e94d2;
 }
 
+.aw-menu li.is-selected > a > .fa-angle-left {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
 /* PAGE-TITLE */
 .aw-page-title {
 	margin: 0;
 	padding: 20px 0;
-	
+
 	font-size: 1.5em;
 	color: #373737;
 }
