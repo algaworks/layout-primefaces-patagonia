@@ -8,7 +8,7 @@ Este é um fork do layout para Java EE com PrimeFaces chamado <a href="https://g
 
 Exemplo sem submenus:  
 
-![alt text]https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png   
+![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png)
 
 # Como usar?
 
