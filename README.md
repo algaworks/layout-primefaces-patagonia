@@ -20,7 +20,8 @@ Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareç
     <ul class="aw-menu-tree">
 	<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-user-times"></i>Subitem 1</h:link></li>
 	<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-users"></i>Subitem 2</h:link></li>
-	<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-user-plus"></i>Subitem 3</h:link></li> 	                    	</ul>
+        <li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-user-plus"></i>Subitem 3</h:link></li>    
+    </ul>
 </li>
 ```
 
