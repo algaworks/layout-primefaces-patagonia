@@ -14,7 +14,7 @@ Exemplo sem submenus:
 
 Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareça o submenu, esta ul deve ter a classe 'aw-menu-tree' e pode conter quantas tags li forem necessárias, e cada li será um subitem do link que está acima da ul. Cada li do submenu deve ter a classe 'subitem' e todos os links do menu devem a classe 'aw-item-link', e é somente isto. Ex.:
 
-```
+```html
 <li>
     <h:link styleClass="aw-item-link"><i class="fa  fa-fw  fa-file-text"></i>Página 2 <i class="fa fa-fw  fa-angle-left pull-right"></i></h:link>
     <ul class="aw-menu-tree">
@@ -24,6 +24,10 @@ Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareç
     </ul>
 </li>
 ```
+O exemplo completo pode ser visto no arquivo <a href="https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/WEB-INF/templates/Menu.xhtml">Menu.xhtml</a>
+
+
+
 
 
 
