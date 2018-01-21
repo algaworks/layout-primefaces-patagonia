@@ -4,7 +4,7 @@ Este é um fork do layout para Java EE com PrimeFaces chamado <a href="https://g
 
  
 
-![Alt tex](layout-primefaces-patagonia/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png ?raw=true "Title")  
+![Alt tex](layout-primefaces-patagonia/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png?raw=true "Title")  
 
 Exemplo sem submenus:  
 
