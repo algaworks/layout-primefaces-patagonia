@@ -10,7 +10,21 @@ Exemplo sem submenus:
 
 ![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png)
 
-# Como usar?
+## Como usar?
+
+Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareça o submenu, esta ul deve ter a classe 'aw-menu-tree' e pode conter quantas tags li forem necessárias, e cada li será um subitem do link que está acima da ul. Cada li do submenu deve ter a classe 'subitem' e todos os links do menu devem a classe 'aw-item-link', e é somente isto. Ex.:
+
+```
+<li>
+		<h:link styleClass="aw-item-link"><i class="fa  fa-fw  fa-file-text"></i>Página 2 <i class="fa fa-fw  fa-angle-left pull-right"></i></h:link>
+		<ul class="aw-menu-tree">
+			<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-user-times"></i>Subitem 1</h:link></li>
+			<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-users"></i>Subitem 2</h:link></li>
+			<li class="subitem"><h:link styleClass="aw-item-link" ><i class="fa  fa-fw  fa-user-plus"></i>Subitem 3</h:link></li>
+		</ul>
+</li>
+```
+
 
 
 
