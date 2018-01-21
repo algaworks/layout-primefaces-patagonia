@@ -22,6 +22,19 @@ function expandirRecolherItensDoMenu() {
 	avaliarQualLiRecolherExpandir($(linkClicado).parent(), linkClicado);
 }
 
+function avaliarQualLiRecolherExpandir(liPai, linkClicado) {
+
+	// quando for subitem nao precisa fazer nada
+	if (!($(liPai).hasClass('subitem'))) {
+
+		// se nao estiver selecionada, desativa a li que estiver selecionda
+		if (!($(liPai).hasClass('is-selected'))) {
+			desativarLiSelecionada();
+		}
+		expandirRecolherMenu(linkClicado, liPai);
+	}
+}
+
 function expandirRecolherMenu(linkClicado, liPai) {
 
 	$(liPai).toggleClass('is-selected');
@@ -37,18 +50,5 @@ function desativarLiSelecionada() {
 		var menuExpandido = $(liAtiva).find('.aw-menu-tree');
 		menuExpandido.toggle('1000');
 		$(liAtiva).removeClass('is-selected');
-	}
-}
-
-function avaliarQualLiRecolherExpandir(liPai, linkClicado){
-
-	//quando for subitem nao precisa fazer nada
-	if (!($(liPai).hasClass('subitem'))) {
-
-		//se nao estiver selecionada, desativa a li que estiver selecionda
-		if(!($(liPai).hasClass('is-selected'))){
-			desativarLiSelecionada();
-		}
-		expandirRecolherMenu(linkClicado, liPai);
 	}
 }
