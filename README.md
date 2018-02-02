@@ -7,7 +7,7 @@ Exemplo sem submenus:
 
 ![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png)
 
-Exemplo com submenus:   
+Exemplo com submenus (funcionalidade adicionada neste fork):   
 
 ![Alt tex](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-com-submenus.png)  
 
