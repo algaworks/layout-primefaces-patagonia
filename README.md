@@ -56,6 +56,8 @@ Em qualquer arquivo xhtml que tem o Layout.xhtml como template, adicione um a ta
 
 Perceba que exite uma tag h1 com o conteúdo: Título da sua página, mas este título será exibido dentro da sua página, enquanto que o contéudo dentro da tag ui:fefine/title-tab será exibido na aba do navegador, antes não erá possível personalizar este título exibido pelo navegador.
 
+![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/personalizacao-titulo.png)
+
 
 
 
