@@ -2,13 +2,15 @@
 
 Este é um fork do layout para Java EE com PrimeFaces chamado <a href="https://github.com/algaworks/layout-primefaces-patagonia"> patagonia</a> da Escola de cursos on-line <a href="http://www.algaworks.com">Algaworks</a>, mas com a adição da possibilidade de inserir submenus.
 
-Exemplo com submenus:   
-
-![Alt tex](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-com-submenus.png)  
 
 Exemplo sem submenus:  
 
 ![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png)
+
+Exemplo com submenus (funcionalidade adicionada neste fork):   
+
+![Alt tex](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-com-submenus.png)  
+
 
 ### Update:  
 Foi adicionado também uma região para o título da aba/janela do navegador, no modelo antes deste update, todas as janelas iriam ter o mesmo nome de exibição no browser.
@@ -54,7 +56,9 @@ Em qualquer arquivo xhtml que tem o Layout.xhtml como template, adicione um a ta
 </ui:composition>
 ```
 
-Perceba que exite uma tag h1 com o conteúdo: Título da sua página, mas este título será exibido dentro da sua página, enquanto que o contéudo dentro da tag ui:fefine/title-tab será exibido na aba do navegador, antes não erá possível personalizar este título exibido pelo navegador.
+Perceba que exite uma tag h1 com o conteúdo: Título da sua página, mas este título será exibido dentro da sua página, enquanto que o contéudo dentro da tag ui:fefine/title-tab será exibido na aba do navegador, **antes não erá possível personalizar este título exibido pelo navegador**.
+
+![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/personalizacao-titulo.png)
 
 
 
