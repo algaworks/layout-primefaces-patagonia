@@ -1,6 +1,6 @@
 # O que é?
 
-Este é um fork do layout para Java EE com PrimeFaces chamado <a href="https://github.com/algaworks/layout-primefaces-patagonia"> patagonia</a> da Escola de cursos on-line <a href="http://www.algaworks.com">Algaworks</a>, mas com a adição da possibilidade de adicionar submenus.
+Este é um fork do layout para Java EE com PrimeFaces chamado <a href="https://github.com/algaworks/layout-primefaces-patagonia"> patagonia</a> da Escola de cursos on-line <a href="http://www.algaworks.com">Algaworks</a>, mas com a adição da possibilidade de inserir submenus.
 
 Exemplo com submenus:   
 
@@ -10,8 +10,12 @@ Exemplo sem submenus:
 
 ![alt text](https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/resources/algaworks/images/exemplo-sem-submenus.png)
 
+### Update:  
+Foi adicionado também uma região para o título da aba/janela do navegador, no modelo antes deste update, todas as janelas iriam ter o mesmo nome de exibição no browser.
+
 ## Como usar?
 
+### Adicionar submenus
 Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareça o submenu, esta ul deve ter a classe 'aw-menu-tree' e pode conter quantas tags li forem necessárias, e cada li será um subitem do link que está acima da ul. Cada li do submenu deve ter a classe 'subitem' e todos os links do menu devem a classe 'aw-item-link', e é somente isto. Ex.:
 
 ```html
@@ -25,6 +29,34 @@ Simples. Adicione uma tag ul abaixo do link do menu que você deseja que apareç
 </li>
 ```
 O exemplo completo pode ser visto no arquivo <a href="https://github.com/rmnresende/layout-primefaces-patagonia/blob/master/src/main/webapp/WEB-INF/templates/Menu.xhtml">Menu.xhtml</a>
+
+### Adicionar título para a janela/aba do navegador
+Em qualquer arquivo xhtml que tem o Layout.xhtml como template, adicione um a tag ui:define com o name igual a 'title-tab', esta tag deve ficar entre o ui:composition e o ui:define com name de 'content'.Ex.:    
+
+```html
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	template="/WEB-INF/templates/Layout.xhtml">
+	
+	<ui:define name="title-tab">Meu título</ui:define>
+	
+	<ui:define name="content">
+		<h1 class="aw-page-title">Título da sua página</h1>
+		
+		<h:form id="frm">
+			Conteúdo do formulário
+		</h:form>
+	</ui:define>
+	
+</ui:composition>
+```
+
+
+
+
 
 
 
