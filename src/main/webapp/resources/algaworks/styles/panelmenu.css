@@ -1,0 +1,62 @@
+/* MENU PRIMEFACES */
+.aw-panelmenu .ui-panelmenu-header {
+    display: none;
+}
+
+.aw-panelmenu .ui-icon-triangle-1-e {
+    background-position: -64px -16px;
+}
+
+.aw-panelmenu .ui-icon-triangle-1-s {
+    background-position: 0 -16px;
+}
+
+.aw-panelmenu .ui-menu-parent > .ui-menuitem-link > .ui-icon,
+.aw-panelmenu .ui-menu-parent > .ui-menuitem-link.ui-menuitem-link-hasicon > .ui-icon,
+.aw-panelmenu .ui-menu-parent > .ui-menuitem-link > .ui-icon.ui-icon-extlink,
+.aw-panelmenu .ui-menuitem .ui-menuitem-icon
+{
+    left: 1em;
+    top: 2px;
+}
+
+.aw-panelmenu .ui-menu-parent .ui-panelmenu-icon.ui-icon.ui-icon-triangle-1-e,
+.aw-panelmenu .ui-menu-parent .ui-panelmenu-icon.ui-icon.ui-icon-triangle-1-s {
+    position: absolute;
+    right: 3px;
+    left: inherit;
+    top: -2px;
+}
+
+.aw-panelmenu .ui-menuitem-link {
+    border-radius: 0;    
+}
+
+.aw-panelmenu .ui-menu-list .ui-helper-hidden {
+    background-color: #ffffff;
+}
+
+.aw-panelmenu .ui-panelmenu-content {
+    border: 0;
+    background: transparent;    
+    padding-top: 0;
+}
+
+.aw-panelmenu .ui-menuitem-text {
+    font-size: 0.91em;
+    margin-left: 5px;
+}
+
+.aw-panelmenu span.ui-menuitem-text {
+    min-height: 35px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.aw-panelmenu .ui-icon.fa {
+    font-size: 0.83em;
+}
+
+.aw-panelmenu .ui-menu-parent .ui-menuitem-link.ui-menuitem-link-hasicon {
+    padding-left: 2em;     
+}
