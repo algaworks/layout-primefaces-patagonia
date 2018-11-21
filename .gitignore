@@ -5,3 +5,28 @@
 .classpath
 .project
 target/
+README.md
+.settings/
+
+#arquivos de conf do netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+#arquivos binarios
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+/.tern-project
