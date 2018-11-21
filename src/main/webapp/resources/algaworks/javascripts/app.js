@@ -5,13 +5,16 @@ $(function() {
 	});
 
 	$('.aw-item-link').bind('click', function(event) {
-		expandirRecolherItensDoMenu();
+		debugger;
+		event.preventDefault();
+		expandirRecolherItensDoMenu(event);
 	});
 });
 
-function expandirRecolherItensDoMenu() {
+function expandirRecolherItensDoMenu(event) {
 
-	event.preventDefault();
+	debugger;
+
 	var linkClicado = event.target;
 
 	// se clicou no icone do link em vez de clicar no link
